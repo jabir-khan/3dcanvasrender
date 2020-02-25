@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Three.js Boilerplate</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+						<!-- The Modal -->
+						  <div class="modal" id="myModal">
+						    <div class="modal-dialog bounceIn animated">
+						      <div class="modal-content">						      
+						        <!-- Modal Header -->
+						        <div class="modal-header">
+						          <p class="modal-title"> <i class="fa fa-shopping-cart"></i> Cart Item</p>
+						          <button type="button" id="closeModal" class="btn btn-danger">X</button>
+						        </div>						        
+						        <!-- Modal body -->
+						        <div class="modal-body">
+						        <div class="card">
+						        <div class="w-25">
+							    <img class="card-img-top " src="glasscoke.jpg" alt="Card image">
+								</div>
+							    <div class="card-body">
+							      <p class="card-title">Coca-cola</p>
+							      <div class="price">$1.00 <span class="old-price">$2.00</span></div>
+							      <span class="section-header">Payment Method</span>
+									<div class="payment-details">
+									<div class="visa-icon"></div>
+									</div>
+								<div class="modal-footer">
+							      <button class="btn btn-warning" id="pay" style="float: right;">Buy Now</button>
+							  </div>
+							    </div>
+							  </div>	
+
+						      </div>
+						      			        
+						      </div>
+						    </div>
+						  </div>
+
+		
+
+		<div class="container" id="video_div">
+
+			<video class="video" id="video" controls autoplay>
+				<source src="assets/video/video.mp4" type="video/mp4" />
+				Your browser does not support playing HTML5 videos.
+			</video>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+			<!-- <script src="js/three.js"></script> -->
+			<script src="js/OrbitControls.js"></script>
+			<script src="js/OBJLoader.js"></script>
+			<script src="js/MTLLoader.js"></script>
+			<script src="js/GLTFLoader.js"></script>
+			<!-- <script src="js/main.js"></script> -->
+			<script src="js/scripts.js"></script>
+			<script src='js/threex.domevents.js'></script>
+
+			<!-- FBX loader -->
+<!-- 			<script src="js/FBXLoader.js"></script>
+			<script src="js/libs/inflate.min.js"></script>
+			<script src="js/scripts.js"></script>
+ -->			<!--  <script src="js/orthographicscript.js"></script> -->
+
+<!-- 
+			<script src="js/threejs/three.js"></script>
+
+			<script src="js/controls/OrbitControls.js"></script>
+
+			<script src="js/curves/NURBSCurve.js"></script>
+			<script src="js/curves/NURBSUtils.js"></script>
+			<script src="js/loaders/FBXLoader.js"></script>
+			<script src="js/MTLLoader.js"></script>
+
+			<script src="js/Detector.js"></script>
+			<script src="js/libs/stats.min.js"></script>
+			<script src="js/libs/inflate.min.js"></script>
+
+			<script src="js/scripts.js"></script> -->
+
+			
+
+<!-- 			<img src="assets/images/partners-frame.png" id="main_image"></img>
+			<img src="assets/images/partners/fabienne.png" id="overlay_image1"></img>
+			<img src="assets/images/partners/bini-como.png" id="overlay_image2"></img>
+			<img src="assets/images/partners/bini-como.png" id="overlay_image3"></img> -->
+		</div>
+
+	</body>
+</html>
